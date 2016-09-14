@@ -8,10 +8,9 @@ management:
     enabled: false # turn of securing the actuator endpoints
     
 logging: # <----New sections below
-  level:
-    io:
-      pivotal: DEBUG
-      
+level:
+io:
+pivotal: DEBUG
 greeting:
-  displayFortune: false
-    quoteServiceURL: http://quote-service-dev.cfapps.io/quote
+displayFortune: false
+quoteServiceURL: http://quote-service-dev.cfapps.io/quote
